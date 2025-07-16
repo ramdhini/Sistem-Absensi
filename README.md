@@ -1,6 +1,8 @@
 # Sistem Absensi Pegawai
 
-Sistem Absensi Pegawau adalah aplikasi manajemen absensi berbasis web yang dirancang untuk membantu perusahaan dalam melacak dan mengelola kehadiran pegawai secara efisien. Dengan antarmuka yang intuitif, sistem ini memungkinkan pengguna untuk menandai kehadiran, membuat laporan, dan mengelola data pegawai dengan mudah.
+Sistem Absensi Pegawai adalah aplikasi manajemen absensi berbasis web yang dirancang untuk membantu perusahaan dalam melacak dan mengelola kehadiran pegawai secara efisien. Dengan antarmuka yang intuitif, sistem ini memungkinkan pengguna untuk menandai kehadiran, membuat laporan, dan mengelola data pegawai dengan mudah.
+
+![image alt](https://github.com/ramdhini/Sistem-Absensi/blob/bfbb097b49b2d8c87da9d57b161fb411277f3096/Sistem-Absensi.png)
 
 ## Fitur Utama
 
