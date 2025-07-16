@@ -1,0 +1,264 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #F1E5D1;
+}
+
+nav {
+    background-color: #DBB5B5; /* Background color for the navbar */
+    padding: 10px 0;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between; /* Distribute space between logo and menu */
+    align-items: center;
+    max-width: 1500px; 
+    margin: 0 auto;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 60px;
+}
+
+.logo{
+    display: flex;
+
+}
+.logo h2 {
+    font-size: 35px;
+    font-weight: bold;
+    color: #987070;
+    padding-left: 10px;
+    
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    margin-left: 10px; 
+}
+
+nav ul li {
+    margin-left: 20px; /*jarak antar menu navbar*/
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333; /* Text color for menu items */
+    font-weight: 500; /* Optional: font weight for menu items */
+    background-color: #F1E5D1;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+nav ul li a:hover{
+    color: #F1E5D1;
+    background-color: #C39898;
+}
+
+.button{
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #C39898;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 100px;
+
+}
+
+.button:hover{
+    background-color:#987070;
+}
+
+section{
+    display: flex;
+    margin: auto;
+    margin-bottom: 10px;
+
+}
+
+section img{
+    display: flex;
+    margin-top: 45px;
+    margin-bottom: 10px;
+
+}
+
+.kolom{
+    margin-top: 100px;
+    padding-top: 50px;
+    text-align: center;
+    padding-left: 80px;    
+    
+}
+
+.kolom .intro{
+    font-size: 45px;
+    font-style: 'Work Sans', sans-serif;
+}
+
+.kolom .intro-lanjut{
+    font-size: 25px;
+    padding-top: 10px;
+    color: #987070;
+    font-weight: bolder;
+    width: 100%;
+}
+
+#home{
+    justify-content: space-between;
+    padding-left: 50px;
+}
+
+/* BAG 2*/
+.about-section{
+    background-color: #987070;
+    font-family: 'Work Sans', sans-serif;
+}
+#about{
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-top: 50px;
+    padding-right: 50px;
+}
+
+#about img{
+    margin-top: 80px;
+    width: 400px;
+    height: 300px;
+}
+
+.judul-about{
+    background-color: none;
+    padding-left: 50px;
+    padding-right: 50px;
+    max-width: 50%;
+    margin-top: 50px;
+    margin-bottom: 110px;
+}
+
+.judul-about-us{
+    text-align: center;
+    color: #DBB5B5;
+    font-size: 40px;
+    font-weight: bolder;
+    padding-bottom: 20px;   
+    text-shadow: #C39898 5px 5px 10px;
+}
+
+.deskripsi-about-us{
+    font-size: 14px;
+    text-align: center;
+    line-height: 150%;
+    padding-bottom: 90px;
+    color: #F1E5D1;
+    
+}
+
+.judul-about h3{
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 20px;
+    color: #DBB5B5;
+    text-shadow: #C39898 5px 5px 10px;
+}
+
+.judul-about ul {
+    padding-left: 40px;
+}
+
+.judul-about ul li{
+    font-size: 14px;
+    padding-bottom: 15px;
+    color: #F1E5D1;
+}
+
+
+/*FOOTER*/
+
+footer{
+    bottom: 0;
+    background-color: #DBB5B5;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+
+section .foot{
+    display: flex;
+    justify-content: space-between; 
+    padding: 50%;
+    
+}
+
+.footer h1{
+    text-align: center;
+    padding-bottom: 50px;
+   
+}
+
+.foot-menu a{
+    display: grid;
+    line-height: 25px;
+    text-align: center;
+    text-decoration: none;
+    color: #987070;
+}
+.foot-right{
+    margin-left: 400px;
+    text-align: center;
+}
+
+.foot-right ul li{
+    text-align: center;
+    line-height: 25px;
+    list-style: none;
+    color: #987070;
+}
+
+.foot-left{
+    margin-left: 200px;
+
+}
+
+
+/*LOGIN OPTION*/
+#login{
+    text-align: center;
+    height: 590px;
+}
+
+.judul-login{
+    padding-top: 100px;
+}
+#login-option{
+    display: flex;
+    padding: 80px 100px 100px 100px;
+    justify-content: space-between;
+    line-height: 50px;
+
+    
+
+}
+
+.peserta-log{
+    background-color: #DBB5B5;
+    padding: 30px;
+    border-radius: 30px;
+}
+
+.admin-log{
+    background-color: #DBB5B5;
+    padding: 30px;
+    border-radius: 30px;
+}

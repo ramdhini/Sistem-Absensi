@@ -1,0 +1,138 @@
+/* CSS untuk Menu Sidebar dan Page Container */
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.page-wrapper {
+    display: flex;
+    min-height: 100vh;
+    background-color: #f4f4f4;
+}
+
+.menu-sidebar {
+    position: fixed;
+    width: 300px; /* Sesuaikan dengan lebar sidebar Anda */
+    height: 100vh;
+    background-color: #DBB5B5;
+    color: #987070;
+    line-height: 25px;
+    text-align: center;
+    border-radius: 0px 20px 20px 0px;
+    
+}
+
+.judul-sidebar h2 {
+    text-align: center;
+    padding: 30px;
+    margin: 0;
+    font-size: 30px;
+
+}
+
+.navbar-sidebar {
+    padding: 30px;
+}
+
+.list-navbar {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.list-navbar li {
+    margin-bottom: 15px;
+}
+
+.list-navbar a {
+    text-decoration: none;
+    color: #987070;
+    display: block;
+    padding: 10px;
+    border-radius: 10px;
+    transition: background-color 0.3s;
+}
+
+.list-navbar a:hover {
+    background-color: #F1E5D1;
+}
+
+/*KONTEN UTAMA */
+.page-container {
+    margin-left: 300px; /* Sesuaikan dengan lebar sidebar Anda */
+    padding: 20px;
+    flex: 1;
+}
+
+
+/* Header: Fixed header at the top of the page */
+.header-desktop {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.header-wrap {
+    display: flex;
+    justify-content: center;
+}
+
+.form-header {
+    display: flex;
+    align-items: center;
+}
+
+.search-button {
+    width: 200px;
+    padding: 8px;
+    border-radius: 4px 0 0 4px;
+    border: 1px solid #ced4da;
+    border-right: none;
+}
+
+.search-submit {
+    padding: 8px;
+    border-radius: 0 4px 4px 0;
+    border: 1px solid #ced4da;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    border-left: none;
+}
+
+.search-submit:hover {
+    background-color: #0056b3;
+}
+
+/* Main Content Area */
+.main-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 4px;
+}
+
+/* Table Styles */
+.table-content {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.table-content td, .table-content th {
+    padding: 8px;
+    border: 1px solid #ddd;
+}
+
+.table-content th {
+    background-color: #007bff;
+    color: #fff;
+    text-align: left;
+}
+
+.table-data-main img {
+    max-width: 100px; /* Atur lebar maksimum gambar */
+    max-height: 100px; /* Atur tinggi maksimum gambar */
+    object-fit: cover; /* Pastikan gambar tidak terdistorsi */
+}

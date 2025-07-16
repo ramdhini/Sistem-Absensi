@@ -1,0 +1,159 @@
+body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/*KESELURUHAN KONTEN  DARI SIDEBAR DAN KONTEN KANAN*/
+.page-wrapper {
+    display: flex;
+    background-color: #ffffff;
+}
+
+/*KESELURUHAN SIDEBAR (JUDUL + MENUNYA)*/
+.sidebar {
+    width: 250px;
+    background-color: #DBB5B5;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    height: 545px;
+    border-radius: 0px 20px 20px 0px;
+    justify-items: center;
+    position: fixed;
+}
+
+/*JUDUL SIDEBAR TEKS ATTENDANCEANTICS*/
+.sidebar h1 {
+    font-size: 30px;
+    color: #987070;
+    text-align: center;
+    margin-bottom: 70px;
+   
+}
+
+/*KESELURUHAN MENU SIDEBAR*/
+.menu-sidebar ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+   
+}
+
+/*MENU SIDEBAR ATU ATU*/
+.menu-sidebar ul li {
+    margin-bottom: 40px;
+    text-align: center;
+    
+}
+
+/*MENU SIDEBAR BAGIAN DALAM LAGI*/
+.menu-sidebar ul li a {
+    text-decoration: none;
+    color: #987070;
+    font-size: 18px;
+    border-radius: 10px;   
+    padding: 15px;
+    margin: 20px; 
+
+}
+
+.menu-sidebar li a {
+    color: #ecf0f1;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    display: block;
+}
+
+.menu-sidebar ul li a:hover {
+    background-color: #F1E5D1; /* Lighter pink for hover effect */
+}
+
+/*BAGIAN UTAMA KONTEN KOLOM KANAN*/
+.page-container {
+    width: 950px;
+    padding: 20px;
+    margin-left: 290px;
+}
+
+/*JUDUL BAGIAN ATAS KOLOM KANAN (JUDUL + PROFILE)*/
+.header-desktop {
+    background-color: #DBB5B5; 
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*JUDUL AJA*/
+.header-desktop h2 {
+    background-color: #DBB5B5; /* Light pink */
+    padding-left: 20px;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 24px;
+    color:#987070;
+}
+
+/*BAGIAN SEBELAH KANAN AJA YG FOTO SAMA NAMA*/
+.header-profile{
+    padding-right: 10px;
+    text-align: center;
+
+}
+ /*BAGIAN FOTO AJA*/
+.account-item .image img {
+    width: 45px;
+    height: 45px;   
+    border-radius: 50%;
+    object-fit: cover;
+   
+}
+
+/*BAGIAN NAMA AJA*/
+.account-item .nama {
+    color: #987070;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+/*KONTEN UTAMA KANAN BAWAH*/
+.main-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/*UCAPAN JUDUL*/
+.judulatas {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #987070;
+    font-size: 20px;
+
+}
+
+
+/* TABEL KONTEN KANAN BAWAH*/
+.table-content {
+    width: 100%;
+    border-collapse: collapse;
+    
+}
+
+.table-content td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+/*FOTO*/
+.table-content img {
+    border-radius: 8px;
+    
+}
+.table-content tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Button */

@@ -1,0 +1,153 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/*BUAT 2 BAGIAN, SIDE BAR + CONTENT*/
+.page-wrapper { 
+    display: flex;
+    min-height: 100vh;
+    background-color: #f4f4f4;
+}
+
+/*BAGIAN SIDEBAR SELURUH*/
+.menu-sidebar {
+    position: fixed;
+    width: 300px; 
+    height: 100vh;
+    background-color: #DBB5B5;
+    color: #987070;
+    line-height: 25px;
+    text-align: center;
+    border-radius: 0px 20px 0px 0px;
+    
+}
+
+/*TEKS ADMIN*/
+.judul-sidebar h2 {
+    text-align: center;
+    padding: 30px;
+    margin: 0;
+    font-size: 30px;
+}
+
+/*BAGIAN LIST MENU SIDEBAR*/
+.navbar-sidebar {
+    padding: 30px;
+}
+
+/*BAGIAN LIST NYA AJA*/
+.list-navbar {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    
+}
+
+/*BAGIAN SATU SATU LIST*/
+.list-navbar li {
+    margin-bottom: 15px;
+    
+}
+
+/*BAGIAN SATU SATU LIST DALEMNYA LAGI*/
+.list-navbar a {
+    text-decoration: none;
+    color: #987070;
+    display: block;
+    padding: 10px;
+    border-radius: 10px;
+    transition: background-color 0.3s;
+}
+
+.list-navbar a:hover {
+    background-color: #F1E5D1;
+}
+
+
+/*KONTEN UTAMA */
+.page-container {
+    margin-left: 300px;
+    padding: 20px;
+    flex: 1;
+}
+
+
+/*BAGIAN JUDUL KONTEN KOLOM KANAN*/
+.header-desktop {
+    background-color: #DBB5B5;
+    color:  #987070;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+/*KONTEN KOTAK ABIS*/
+.main-content {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/*TABEL KANAN BAWAH SELURUHAN*/
+.table-content {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+/*KOTAK INPUTAN*/
+.form-control {
+    width: 100%;
+    padding: 5px;
+    margin: 2px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/*BUTTON*/
+.btn-simpan, .btn-batal, .btn-hapus {
+    padding: 8px 10px;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.btn-simpan {
+    background-color: #2ecc71;
+}
+
+.btn-simpan:hover {
+    background-color: #27ae60;
+}
+
+.btn-batal {
+    background-color: #e74c3c;
+}
+
+.btn-batal:hover {
+    background-color: #c0392b;
+}
+
+/*TABEL BAWAH : HASIL */
+.table-content td, .table-content th {
+    padding: 8px;
+    border: 1px solid #ddd;
+}
+
+.table-content th {
+    background-color: #DBB5B5;
+    color: black;
+    text-align: center;
+}
+
+/*BUTTON TABEL BAWAH*/
+.btn-hapus{
+    background-color: #e74c3c;
+}
+
+.btn-hapus:hover {
+    background-color: #c0392b;
+}

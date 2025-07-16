@@ -1,0 +1,101 @@
+/* Reset margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* Basic styling for the body */
+body {
+    background-color: #C39898;
+    display: flex;
+    justify-content: center;
+    
+}
+
+/* Container for login section */
+.sec-login {
+    display: flex;
+    width: 65%;
+    background: #DBB5B5;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin-top: 80px;
+}
+
+/* Styling for left side of login form */
+.seclogin-kiri {
+    padding: 40px 30px 30px 70px;
+    width: 40%;
+    justify-content: center;
+    text-align: center;
+}
+
+.seclogin-kiri h1 {
+    margin-bottom: 15px;
+}
+
+.seclogin-kiri h2 {
+    color: #555;
+    margin-bottom: 25px;
+}
+
+.seclogin-kiri ul {
+    list-style: none;
+
+}
+
+.seclogin-kiri li {
+    margin-bottom: 25px;
+}
+
+#username, #password{
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+.seclogin-kiri label {
+    font-weight: bold;
+}
+
+.seclogin-kiri input{
+    width: 65%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+.seclogin-kiri input:hover {
+    background-color: #F1E5D1;
+}
+
+
+.seclogin-kiri button {
+    width: 30%;
+    padding: 10px;
+    background-color: #987070;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.seclogin-kiri button:hover {
+    background-color: #C39898;
+}
+
+/* Styling for right side of login section */
+.seclogin-kanan {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.seclogin-kanan img {
+    max-width: 100%;
+    height: auto;
+}
+
